@@ -45,12 +45,12 @@ function Login() {
                     <input value={email} onChange={event => setEmail(event.target.value)} type="email" />
                     <h5>Password</h5>
                     <input value={password} onChange={event => setPassword(event.target.value)} type="password" />
-                    <button onClick={login} type="submit" className="login__signInButton" >Sign in</button>
+                    <button onClick={login} type="submit" className="login__signInButton" >Sign in to Fake Amazon</button>
                 </form>
                 <p>
-                    By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.
+                    By continuing, you agree to Ed's Fake Amazon Conditions of Use and Privacy Notice.
                 </p>
-                <button onClick={register} className="login__registerButton" >Create your account</button>
+                <button onClick={register} className="login__registerButton" >Create Fake Amazon account</button>
             </div>
         </div>
     )
